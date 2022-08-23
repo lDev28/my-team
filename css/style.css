@@ -1,0 +1,173 @@
+@font-face {
+  font-family: PT serif;
+  src: url(../fonts/PTSerif.ttf);
+}
+@font-face {
+  font-family: poppins;
+  src: url(../fonts/Poppins.ttf);
+}
+html,
+body {
+  margin: 0 15px;
+  background-color: #FAFAFA;
+}
+
+.wrapper {
+  margin: auto;
+  max-width: 924px;
+}
+
+header {
+  margin-top: 110px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.tagline {
+  font-family: PT serif;
+  font-size: 36px;
+  margin: 0;
+  vertical-align: top;
+}
+
+.headcont {
+  width: 50%;
+}
+.headcont .headq {
+  font-size: 18px;
+  font-family: poppins;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+.headcont p {
+  font-family: poppins;
+  font-size: 18px;
+  margin: 0;
+}
+
+.container {
+  margin: 96px auto;
+}
+.container ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+.container ul .main {
+  width: 29.33%;
+  margin: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  list-style: none;
+}
+.container ul .main .content {
+  float: left;
+}
+.container ul .main .content img {
+  max-width: 100%;
+}
+.container ul .main .content h3 {
+  margin: 15px 0 0 0;
+  font-family: poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+}
+.container ul .main .vert {
+  line-height: 16px;
+  margin: 0 0 0 10px;
+  font-family: PT serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  writing-mode: vertical-lr;
+}
+
+.container > ul > .main:nth-child(2) {
+  margin-top: 99px;
+}
+
+.container > ul > .main:nth-child(5) {
+  margin-top: 99px;
+}
+
+@media only screen and (max-width: 720px) {
+  html,
+body {
+    margin: 0 5px;
+  }
+
+  header {
+    flex-direction: column;
+    margin-top: 71px;
+  }
+  header .tagline {
+    margin-bottom: 38px;
+  }
+  header .headcont {
+    width: 100%;
+  }
+  header .headcont p {
+    font-size: 14px;
+  }
+
+  .container {
+    margin-top: 59px;
+  }
+
+  .container ul .main {
+    width: 46%;
+  }
+  .container ul .main .content h3 {
+    font-size: 14px;
+    margin-top: 0;
+  }
+  .container ul .main .vert {
+    font-size: 10px;
+    margin: 0;
+  }
+
+  .container > ul > .main:nth-child(2) {
+    margin-top: 48px;
+  }
+
+  .container > ul > .main:nth-child(4) {
+    margin-top: 48px;
+  }
+
+  .container > ul > .main:nth-child(5) {
+    margin-top: 0;
+  }
+
+  .container > ul > .main:nth-child(6) {
+    margin-top: 48px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .container > ul > .main {
+    width: 98%;
+    margin-bottom: 20px;
+  }
+
+  .container > ul > .main:nth-child(2) {
+    margin-top: 0;
+  }
+
+  .container > ul > .main:nth-child(4) {
+    margin-top: 0;
+  }
+
+  .container > ul > .main:nth-child(6) {
+    margin-top: 0;
+  }
+}
+@media only screen and (max-width: 320px) {
+  header {
+    margin-top: 35px;
+  }
+}
