@@ -44,11 +44,11 @@
 - What have you learned/improved?
 - Your wisdom? :)
 -->
-
+<!-- 
 ### Used stack technologies
 
 - html
-- css
+- css -->
 <!-- - scss -->
 
 <!-- ## Acknowledgements -->
