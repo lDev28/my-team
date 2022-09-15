@@ -31,10 +31,10 @@
 - [Contact](#contact)
 
 <!-- OVERVIEW -->
-
+<!-- 
 ## Overview
 
-![](https://github.com/ldev28.github.io/my-team/blob/main/page.PNG)
+![](https://github.com/ldev28.github.io/my-team/blob/main/page.PNG) -->
 
 
 <!-- Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
